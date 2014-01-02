@@ -29,7 +29,7 @@
     [panel setPrompt: @"OK"];
     [panel setCanChooseDirectories:YES]; 
 	[panel setCanChooseFiles:YES];
-    [panel setAllowedFileTypes:[NSArray arrayWithObjects:@"sqlite",@"db",@"DB",nil]]; //   [NSImage imageFileTypes]
+    [panel setAllowedFileTypes:[NSArray arrayWithObjects:@"sqlite",@"db",@"DB",@"SQLITE",@"rdb",@"RDB",nil]]; //   [NSImage imageFileTypes]
     
     NSURL *pathUrl = [[NSURL alloc] initFileURLWithPath:NSHomeDirectory()];
 	[panel setDirectoryURL:pathUrl];
