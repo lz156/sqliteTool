@@ -16,6 +16,7 @@
 
 @property(nonatomic, retain) NSString *tableName;
 @property(nonatomic, retain) NSMutableArray *lineArray;
+@property(nonatomic) BOOL isOn;
 
 @end
 

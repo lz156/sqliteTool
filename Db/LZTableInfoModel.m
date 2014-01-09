@@ -17,5 +17,6 @@
 
 @implementation LZTableInfoModel
 @synthesize lineArray,tableName;
+@synthesize isOn;
 
 @end
